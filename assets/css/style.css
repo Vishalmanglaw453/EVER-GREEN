@@ -9,7 +9,6 @@
 }
 
 .container_1440 {
-    max-width: 1440px;
     padding-left: unset;
     padding-right: unset;
     margin-left: auto;
@@ -44,13 +43,15 @@
     color: white;
     border: none;
     border: 2px solid var(--color-green);
-transition: linear 300ms;
+    transition: linear 300ms;
 }
-.nav_btn:hover{
+
+.nav_btn:hover {
     background: white;
     border: 2px solid var(--color-green);
     color: var(--color-green);
 }
+
 .under_line {
     position: relative;
 }
@@ -85,7 +86,8 @@ transition: linear 300ms;
 .custmars_box {
     max-width: 267px;
     width: 100%;
-    background: #DEEDD6;
+    background: #F0F8EC;
+    border: 1px solid #DEEDD6;
     padding-left: 24px;
     padding-top: 41px;
     min-height: 235px;
@@ -254,11 +256,13 @@ transition: linear 300ms;
     margin-top: 32px;
     transition: all linear 300ms;
 }
-.input_btn:hover{
+
+.input_btn:hover {
     background: transparent;
     color: var(--color-green) !important;
 
 }
+
 .hero_btn {
     padding: 15px 27px 15px 27px;
     border-radius: 25px;
@@ -267,7 +271,8 @@ transition: linear 300ms;
     border: 2px solid var(--color-green);
     transition: all linear 300ms;
 }
-.hero_btn:hover{
+
+.hero_btn:hover {
     background: white;
     color: var(--color-green) !important;
 }
@@ -350,9 +355,12 @@ transition: linear 300ms;
 }
 
 .min_h {
-    height: 80vh;
+    height: 90vh;
 }
+footer{
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F8EC 100%);
 
+}
 /* padding , margin , gap */
 .gap_28 {
     gap: 20px;
@@ -378,6 +386,10 @@ transition: linear 300ms;
     margin-top: 15px;
 }
 
+
+.pt_45 {
+    padding-top: 27.9px;
+}
 .pt_20 {
     padding-top: 20px;
 }
@@ -395,7 +407,7 @@ transition: linear 300ms;
 }
 
 .mt-29 {
-    margin-top: 29px;
+    margin-top: 15px;
 }
 
 .ml_14 {
@@ -422,9 +434,6 @@ transition: linear 300ms;
     margin-top: 28px;
 }
 
-.pt_45 {
-    padding-top: 45.9px;
-}
 
 .mt_11 {
     margin-top: 11px;
@@ -439,13 +448,13 @@ transition: linear 300ms;
 }
 
 .pt_44 {
-    padding-top: 44px;
+    padding-top: 20px;
 }
+
 
 .pt_37 {
-    padding-top: 37px;
+    padding-top: 17px;
 }
-
 .pl_16 {
     padding-right: 16px;
 }
@@ -482,6 +491,19 @@ transition: linear 300ms;
     .gap_28 {
         gap: 28px;
     }
+    .pt_45 {
+        padding-top: 45.9px;
+    }
+    .pt_44 {
+        padding-top: 44px;
+    }
+    .pt_37 {
+        padding-top: 37px;
+    }
+    .mt-29 {
+        margin-top: 29px;
+    }
+    
 }
 
 
@@ -516,7 +538,7 @@ transition: linear 300ms;
 
     .py_94 {
         padding: 39.5px 0 39.5px 0;
-    }
+    }    
 }
 
 

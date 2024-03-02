@@ -1,9 +1,13 @@
 function openNav() {
   document.getElementById("navbar").classList.toggle("start-0");
-  document.body.classList.toggle("overflow_hidden");
+  document.body.classList.toggle("overflow-hidden");
   document.querySelector(".menu").classList.toggle("cross");
 }
-
+function offnav(){
+  document.getElementById("navbar").classList.toggle("start-0");
+  document.body.classList.toggle("overflow-scroll");
+  document.querySelector(".menu").classList.toggle("cross");
+}
 $(".responsive").slick({
   dots: false,
   infinite: true,
@@ -23,6 +27,7 @@ $(".slick").slick({
   speed: 4000,
   slidesToShow: 1,
   cssEase: "linear",
+  rtl:true,
   variableWidth: true,
   slidesToScroll: 1,
 });
